@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, 
+                    minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travelix</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <div class="hamburger-menu">
+                    <i class="fa fa-bars open-state"></i>
+                    <i class="fa fa-times close-state"></i>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Offers" class="nav-link">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="News" class="nav-link">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="container">
+                <div class="main-heading">
+                    <h1 class="title">Discovery</h1>
+                    <h2 class="subtitle">Luxury hotels</h2>
+                </div>
+                <a href="Explore Now" class="btn btn-gradient">Explore Now
+                    <span class="dots"><i class="fa fa-ellipsis-h"></i></span>
+                </a>
+            </div>
+        </div>
+
+        <section class="booking">
+            <div class="container">
+                <form action="" class="form">
+                    <div class="input-group">
+                        <label for="destination" class="input-label">Destination</label>
+                        <input type="text" class="input" id="destination" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="check-in" class="input-label">Check in</label>
+                        <input type="date" class="input" id="check-in" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="check-out" class="input-label">Check out</label>
+                        <input type="date" class="input" id="check-out" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="adults" class="input-label">Adults</label>
+                        <select class="options" id="adults" required>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="children" class="input-label">Children</label>
+                        <select class="options" id="children" required>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn form-btn btn-purple">Search
+                        <span class="dots"><i class="fa fa-ellipsis-h"></i></span>
+                    </button>
+                </form>
+            </div>
+        </section>
+        <section class="class hotels">
+            <div class="container">
+                <h5 class="section-head">
+                    <span class="heading">Explore</span>
+                    <span class="sub-heading">Our beautiful hotels</span>
+                </h5>
+                <div class="grid">
+                    <div class="grid-item featured-hotels">
+                        <img src="./images/hotel_astro_resort.jpg" alt="" class="hotel-image">
+                        <h5 class="hotel-name">Astro Hotel</h5>
+                        <span class="hotel-price">From $200/Night</span>
+                        <div class="hotel-rating">
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star-half rating"></i>
+                        </div>
+                        <a href="Booking" class="btn btn-gradient">Book Now
+                            <span class="dots"><i class="fa fa-ellipsis-h"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="grid-item featured-hotels">
+                        <img src="./images/hotel_the_enchanted_garden.jpg" alt="" class="hotel-image">
+                        <h5 class="hotel-name">Enchanted Garden</h5>
+                        <span class="hotel-price">From $300/Night</span>
+                        <div class="hotel-rating">
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                        </div>
+                        <a href="Booking" class="btn btn-gradient">Book Now
+                            <span class="dots"><i class="fa fa-ellipsis-h"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="grid-item featured-hotels">
+                        <img src="./images/hotel_the_paradise.jpg" alt="" class="hotel-image">
+                        <h5 class="hotel-name">The Paradise</h5>
+                        <span class="hotel-price">From $350/Night</span>
+                        <div class="hotel-rating">
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star rating"></i>
+                            <i class="fa fa-star-half rating"></i>
+                        </div>
+                        <a href="Booking" class="btn btn-gradient">Book Now
+                            <span class="dots"><i class="fa fa-ellipsis-h"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+        </section>
+        <section class="offer">
+            <div class="container">
+                <div class="offer-content">
+                    <div class="discount">
+                        40%off
+                    </div>
+                    <h5 class="hotel-name">The Paradise</h5>
+                    <div class="hotel-rating">
+                        <i class="fa fa-star rating"></i>
+                        <i class="fa fa-star rating"></i>
+                        <i class="fa fa-star rating"></i>
+                        <i class="fa fa-star rating"></i>
+                        <i class="fa fa-star rating"></i>
+                        <i class="fa fa-star-half rating"></i>
+                    </div>
+                    <p class="paragraph">
+                        Lorem Ipsum is a dummy text used by web developers to teach their students, especially</br>
+                        where paragraph texts are required.
+                    </p>
+                    <a href="Booking" class="btn btn-gradient">Redeem offer
+                        <span class="dots"><i class="fa fa-ellipsis-h"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="rooms">
+            <div class="container">
+                <h5 class="section head">
+                    <span class="heading">Luxurious</span>
+                    <span class="sub-heading">Affordable rooms</span>
+                </h5>
+                <div class="grid rooms-grid">
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="images/room_1.jpg" alt="">
+                            <h5 class="room-name">Astro Hotel</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$200 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                Lorem Ipsum is a dummy text used by web developers to teach their students,
+                                especially</br>
+                                where paragraph texts are required.
+                            </p>
+                            <a href="Book now" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="images/room_2.jpg" alt="">
+                            <h5 class="room-name">Astro Hotel</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$200 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                Lorem Ipsum is a dummy text used by web developers to teach their students,
+                                especially</br>
+                                where paragraph texts are required.
+                            </p>
+                            <a href="Book now" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="images/room_3.jpg" alt="">
+                            <h5 class="room-name">Astro Hotel</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$200 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                Lorem Ipsum is a dummy text used by web developers to teach their students,
+                                especially</br>
+                                where paragraph texts are required.
+                            </p>
+                            <a href="Book now" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="images/room_4.jpg" alt="">
+                            <h5 class="room-name">Astro Hotel</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$200 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                Lorem Ipsum is a dummy text used by web developers to teach their students,
+                                especially</br>
+                                where paragraph texts are required.
+                            </p>
+                            <a href="Book now" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="images/room1.jpg" alt="">
+                            <h5 class="room-name">Enchanted Garden</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$300 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                Lorem Ipsum is a dummy text used by web developers to teach their students,
+                                especially</br>
+                                where paragraph texts are required.
+                            </p>
+                            <a href="Book now" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="images/room2.jpg" alt="">
+                            <h5 class="room-name">Enchanted Garden</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$300 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                Lorem Ipsum is a dummy text used by web developers to teach their students,
+                                especially</br>
+                                where paragraph texts are required.
+                            </p>
+                            <a href="Book now" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="images/room3.jpg" alt="">
+                            <h5 class="room-name">Enchanted Garden</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$300 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                Lorem Ipsum is a dummy text used by web developers to teach their students,
+                                especially</br>
+                                where paragraph texts are required.
+                            </p>
+                            <a href="Book now" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="images/room4.jpg" alt="">
+                            <h5 class="room-name">Enchanted Garden</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$300 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                Lorem Ipsum is a dummy text used by web developers to teach their students,
+                                especially</br>
+                                where paragraph texts are required.
+                            </p>
+                            <a href="Book now" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="images/room.1.jpg" alt="">
+                            <h5 class="room-name">The Paradise</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$350 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                Lorem Ipsum is a dummy text used by web developers to teach their students,
+                                especially</br>
+                                where paragraph texts are required.
+                            </p>
+                            <a href="Book now" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="images/room.2.jpg" alt="">
+                            <h5 class="room-name">The Paradise</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$350 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                Lorem Ipsum is a dummy text used by web developers to teach their students,
+                                especially</br>
+                                where paragraph texts are required.
+                            </p>
+                            <a href="Book now" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="images/room.3.jpg" alt="">
+                            <h5 class="room-name">The Paradise</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$350 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                Lorem Ipsum is a dummy text used by web developers to teach their students,
+                                especially</br>
+                                where paragraph texts are required.
+                            </p>
+                            <a href="Book now" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="images/room.4.jpg" alt="">
+                            <h5 class="room-name">The Paradise</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$350 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                Lorem Ipsum is a dummy text used by web developers to teach their students,
+                                especially</br>
+                                where paragraph texts are required.
+                            </p>
+                            <a href="Book now" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h5 class="section head">
+                    <span class="heading">Contact</span>
+                    <span class="sub-heading">Get in touch with us</span>
+                </h5>
+                <div class="contact-content">
+                    <div class="traveler-wrap">
+                        <img src="images/traveler.jpg" alt="">
+                    </div>
+                    <form action="" class="form contact-form">
+                        <div class="input-group-wrap">
+                            <div class="input-group">
+                                <input type="text" class="input" placeholder="Name" required>
+                                <span class="bar"></span>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" class="input" placeholder="E-mail" required>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+                            <div class="input-group">
+                                <input type="text" class="input" placeholder="Subject" required>
+                                <span class="bar"></span>
+                            </div>
+                            <div class="input-group">
+                                <textarea class="input" cols="30" rows="8" placeholder="Subject" required></textarea>
+                                <span class="bar"></span>
+                            </div>
+                            <button type="submit" class="btn form-btn btn-purple">Send Message
+                                <span class="dots"><i class="fa fa-ellipsis-h"></i></span>
+                            </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-brand">
+                    <a href="index.html" class="logo">
+                        <img class="logo-image" src="images/logo.png" alt="">
+                    </a>
+                    <div class="paragraph">
+                        Lorem Ipsum is a dummy text used by web developers to teach their students,
+                        especially</br>
+                        where paragraph texts are required.
+                    </div>
+                </div>
+                <div class="social-media-wrap">
+                    <h4 class="footer-heading">Follow us</h4>
+                    <div class="social-media">
+                        <a href="Twitter" class="sn-link"><i class="fa fa-twitter"></i></a>
+                        <a href="Facebook" class="sn-link"><i class="fa fa-facebook-square"></i></a>
+                        <a href="Instagram" class="sn-link"><i class="fa fa-instagram"></i></a>
+                        <a href="Pinterest" class="sn-link"><i class="fa fa-pinterest"></i></a>
+                        <a href="Tripadvisor" class="sn-link"><i class="fa fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
